@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{     
+    line-height: 1.2;
+  }
+
+  @page{
+    size: A4;
+    margin: 0;
+  }
+
+  html, body{
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .content {
+    width: 640px;
+    /* Adjust the width as needed */
+    height: 1000px;
+    /* Adjust the height as needed*/
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    border-radius: 23px;
+    /* Light gray shade */
+
+}
+ .subsection{
+    margin-left: 45px;
+    padding-bottom: 10px;
+ }
+
+ .link{
+    list-style-type: none;
+    margin:0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: light gray;
+ } 
+
+.SK{
+  text-align: center;
+  text-shadow: 2px 2px 4px green;
+}
+
+img{
+    border-radius: 125px;
+    width: 160px;
+    border: 1px solid rgb(181, 13, 13); 
+    filter: brightness(120%);
+    filter: contrast(120%);
+}
+.nav{
+    float:inline-start;
+}
+
+.active{
+    background-color: gray;
+    color: white;
+}
+
+li a{
+    display: block;
+    color: burlywood;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: grey;
+}
+
+li a:hover{
+    background-color: orange;
+    color: white;
+    transition: 1s;
+}   
+ .image{
+    display: flex;
+    align-items: center; 
+ }
+ .text{
+    margin: 40px;
+    list-style-type: none;
+ }
